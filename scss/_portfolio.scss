@@ -31,15 +31,65 @@
     display: flex;
 }
 
-.contact-form
+.contact-information
 {
-    
-    background-color: aqua;
+    width: 320px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 50px;
+    background-color: bisque;
 }
 
-input
+.contact-form
 {
-    //margin: 0;
+    width: 960px;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: whitesmoke;
+}
+
+input, textarea
+{
+    background-color: silver;
+    border: none;
+}
+
+.name
+{
+    display: flex;
+}
+
+.first-name
+{
+    width: 470px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 12px;
+    background-color: silver;
+    border-radius: 5px;
+}
+
+.last-name
+{
+    width: 470px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding: 12px;
+    background-color: silver;
+    border-radius: 5px;
+}
+
+.email
+{
+    margin-bottom: 15px;
+    padding: 12px;
+    background-color: silver;
+    border-radius: 5px;
+}
+
+.subject
+{
+    margin-bottom: 15px;
     padding: 10px;
     background-color: silver;
     border-radius: 5px;
@@ -47,8 +97,9 @@ input
 
 textarea
 {
-    height: 100px;
-    //margin: 0;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 8px;
     padding: 10px;
     background-color: silver;
     border-radius: 5px;
@@ -56,5 +107,18 @@ textarea
 
 .submit-button
 {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
     background-color: white;
+    border-radius: 10px;
+}
+
+.back-to-top
+{
+    height: 60px;
+    margin-top: 150px;
+    text-align: center;
+    background-color: royalblue;
 }

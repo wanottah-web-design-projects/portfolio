@@ -155,12 +155,29 @@
 
                             <form>
 
-                                <input type="text" id="first-name" name="first-name" placeholder="First Name*" required>
-                                <input type="text" id="last-name" name="last-name" placeholder="Last Name*" required>
-                                <input type="text" id="email-address" name="email-address" placeholder="Email Address*" required>
-                                <input type="text" id="subject" name="subject" placeholder="Subject">
-                                <textarea id="message" name="message" placeholder="Message"></textarea>
-                                <input class="submit-button" type="submit" value="submit">
+                                <div class="name">
+                                    <div class="first-name">
+                                        <input type="text" id="first-name" name="first-name" placeholder="First Name*" required>
+                                    </div>
+                                        
+                                    <div class="last-name">
+                                            <input type="text" id="last-name" name="last-name" placeholder="Last Name*" required>
+                                    </div>
+                                </div>
+                                    
+                                <div class="email">
+                                    <input type="text" id="email-address" name="email-address" placeholder="Email Address*" required>
+                                </div>
+                                    
+                                <div class="subject">
+                                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                                </div>
+                                    
+                                <div class="message">
+                                    <textarea id="message" name="message" placeholder="Message"></textarea>
+                                 </div>
+
+                                <button class="submit-button" type="submit">Submit</button>
 
                             </form>
 
