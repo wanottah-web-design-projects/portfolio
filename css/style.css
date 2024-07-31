@@ -89,6 +89,36 @@ a:hover {
   border-bottom: cornflowerblue solid 3px;
 }
 
+.social-link-buttons-container {
+  margin-top: 26px;
+  height: 30px;
+}
+
+.social-link-buttons {
+  display: flex;
+  width: 134px;
+  height: 100%;
+  margin: auto;
+}
+
+.link-button {
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.link-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.link-icon img {
+  width: 100%;
+  height: 100%;
+}
+
 .portfolio-content {
   width: 100%;
   height: 100%;
