@@ -1,0 +1,59 @@
+
+.sidebar-container
+{
+    width: 220px;
+    height: 100%;
+    background-color: rosybrown;
+    border-right: cornflowerblue solid 3px;
+}
+
+.my-initial
+{
+    display: flex;
+    width: 100%;
+    height: 152px;
+    font-size: 100px;   
+    align-items: center;
+    background-color: whitesmoke;
+    border-bottom: cornflowerblue solid 3px;
+}
+
+.my-initial-container
+{
+    margin: auto;
+}
+
+.side-bar
+{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.menu
+{
+    padding-top: 92px;
+    text-align: center;
+}
+
+.menu-item-container
+{
+    margin-bottom: 38px;
+}
+
+.menu-item:hover
+{
+    padding-bottom: 5px;
+    border-bottom: cornflowerblue solid 2px;
+}
+
+.contact-me
+{
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-top: cornflowerblue solid 3px;
+    border-bottom: cornflowerblue solid 3px;
+}

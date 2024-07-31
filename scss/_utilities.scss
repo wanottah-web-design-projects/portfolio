@@ -1,0 +1,7 @@
+
+// check if the google font variable has been declared
+@if variable-exists(google-font--url)
+{
+    // if it has, import the font
+    @import url($google-font--url);
+}
