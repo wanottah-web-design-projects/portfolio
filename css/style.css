@@ -13,7 +13,6 @@ body {
 .body-container {
   width: 100%;
   height: 100%;
-  background-color: violet;
 }
 
 a {
@@ -28,20 +27,19 @@ a:hover {
   display: flex;
   width: 100%;
   height: 100%;
-  background-color: bisque;
+  background-color: black;
 }
 
 .main-content-container {
   display: flex;
   width: 91%;
   margin: auto;
-  background-color: lightblue;
+  background-color: whitesmoke;
 }
 
 .sidebar-container {
   width: 220px;
   height: 100%;
-  border-right: cornflowerblue solid 3px;
 }
 
 .my-initial {
@@ -50,7 +48,6 @@ a:hover {
   height: 152px;
   font-size: 100px;
   align-items: center;
-  background-color: whitesmoke;
   border-bottom: cornflowerblue solid 3px;
 }
 
@@ -60,8 +57,6 @@ a:hover {
 
 .side-bar {
   width: 100%;
-  height: 100%;
-  background-color: whitesmoke;
 }
 
 .menu {
@@ -83,20 +78,18 @@ a:hover {
   height: 45px;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
   border-top: cornflowerblue solid 3px;
   border-bottom: cornflowerblue solid 3px;
 }
 
 .social-link-buttons-container {
-  margin-top: 26px;
   height: 30px;
+  margin-top: 26px;
 }
 
 .social-link-buttons {
   display: flex;
   width: 134px;
-  height: 100%;
   margin: auto;
 }
 
@@ -122,22 +115,57 @@ a:hover {
   width: 100%;
   height: 100%;
   background-color: aquamarine;
+  border-left: cornflowerblue solid 3px;
 }
 
 .portfolio-image {
   background-color: slateblue;
 }
 
+.portfolio-image img {
+  width: 100%;
+}
+
 .portfolio-image, h1, span {
   text-align: center;
 }
 
+.web-projects-container {
+  width: 100%;
+  height: 500px;
+  background-color: palevioletred;
+}
+
 .web-projects {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin: auto;
   background-color: goldenrod;
 }
 
+.coding-projects-container {
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  background-color: palegreen;
+}
+
 .coding-projects {
+  display: flex;
+  width: 100%;
+  height: 400px;
   background-color: lightcoral;
+}
+
+.web-project {
+  width: 400px;
+  height: 300px;
+}
+
+.web-project-img {
+  width: 100%;
+  height: 100%;
 }
 
 .contact-section {
@@ -219,10 +247,10 @@ textarea {
 }
 
 .back-to-top {
-  height: 60px;
+  height: 100px;
   margin-top: 150px;
   text-align: center;
-  background-color: royalblue;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
