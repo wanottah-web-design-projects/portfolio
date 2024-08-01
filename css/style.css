@@ -172,47 +172,47 @@ a:hover {
   height: 100%;
 }
 
-.section-spacer {
-  height: 150px;
+.column-spacer {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .web-projects-container {
+  width: 100%;
+  height: 100%;
+  padding-top: 150px;
+  background-color: red;
+}
+
+.web-projects-container {
+  display: flex;
   width: 92%;
   height: 500px;
   margin: auto;
-  background-color: palevioletred;
 }
 
-.web-projects {
-  display: flex;
-  width: 100%;
-  height: 400px;
-  margin: auto;
+.web-projects-content span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.web-project-image {
+  width: 450px;
+  height: 320px;
+  margin-bottom: 20px;
   background-color: goldenrod;
+  border: black solid 1px;
 }
 
-.web-project {
-  width: 400px;
-  height: 300px;
-}
-
-.web-project-img {
+.web-project-image img {
   width: 100%;
   height: 100%;
 }
 
-.coding-projects-container {
-  width: 92%;
-  height: 500px;
-  margin: auto;
-  background-color: palegreen;
-}
-
-.coding-projects {
-  display: flex;
-  width: 100%;
-  height: 400px;
-  background-color: lightcoral;
+.contact-container {
+  height: 100%;
+  margin-top: 250px;
+  background-color: blue;
 }
 
 .contact-section {

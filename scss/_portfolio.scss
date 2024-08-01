@@ -72,64 +72,63 @@
 }
 
 
-// section spacer
-.section-spacer
+// column spacer
+.column-spacer
 {
-    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+
+// projects container
+.web-projects-container
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+    background-color: red;
+}
 
 // web projects
 .web-projects-container
 {
+    display: flex;
     width: 92%;
     height: 500px;
     margin: auto;
-    background-color: palevioletred;
 }
 
-.web-projects
+.web-projects-content span
 {
-    display: flex;
-    width: 100%;
-    height: 400px;
-    margin: auto;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.web-project-image
+{
+    width: 450px;
+    height: 320px;
+    margin-bottom: 20px;
     background-color: goldenrod;
+    border: black solid 1px;
 }
 
-.web-project
-{
-    width: 400px;
-    height: 300px;
-    //border: black solid 1px;
-}
-
-.web-project-img
+.web-project-image img
 {
     width: 100%;
     height: 100%;
 }
 
 
-// coding projects
-.coding-projects-container
-{
-    width: 92%;
-    height: 500px;
-    margin: auto;
-    background-color: palegreen;
-}
-
-.coding-projects
-{
-    display: flex;
-    width: 100%;
-    height: 400px;
-    background-color: lightcoral;
-}
-
-
 // contact section
+.contact-container
+{
+    //width: 92%;
+    height: 100%;
+    margin-top: 250px;
+    background-color: blue;
+}
+
 .contact-section
 {
     display: flex;
