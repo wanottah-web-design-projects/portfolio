@@ -1,35 +1,98 @@
 
-.portfolio-content
+.portfolio-container
 {
     width: 100%;
     height: 100%;
-    background-color: aquamarine;
+    background-color: orchid;
     border-left: cornflowerblue solid 3px;
+}
+
+.portfolio-image-container
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: orchid;
 }
 
 .portfolio-image
 {
     //position: relative;
-    //display: flex;
-    //width: 50%;
-    background-color: slateblue;
+    //display: inline-block;
+    width: 100%;
+    //height: 760px;
+    //background-color: slateblue;
 }
 
 .portfolio-image img
 {
+    //display: block;
     width: 100%;
+    height: 750px;
 }
 
-.portfolio-image, h1, span
+.portfolio-content
 {
+    width: 100%;
+    height: 750px;
+    padding-top: 250px;
+    //position: absolute;
+    //top: 50%;
+    //left: 50%;
+    //transform: translate(-50%, -50%);
+    background-color: aquamarine;
+}
+
+.portfolio-content-heading, .portfolio-content-paragraph
+{
+    font-size: 40px;
     text-align: center;
 }
 
-.web-projects-container
+
+// top scroll
+.top-scroll-container
 {
     width: 100%;
+    margin-top: 110px;
+    background-color: red;
+}
+
+.top-scroll-text
+{
+    height: 100px;   
+    text-align: center;
+    font-size: 20px;
+}
+
+.top-scroll-icon
+{
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+
+.top-scroll-icon img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+// section spacer
+.section-spacer
+{
+    height: 150px;
+}
+
+
+// web projects
+.web-projects-container
+{
+    width: 92%;
     height: 500px;
-    //margin: auto;
+    margin: auto;
     background-color: palevioletred;
 }
 
@@ -42,9 +105,24 @@
     background-color: goldenrod;
 }
 
-.coding-projects-container
+.web-project
+{
+    width: 400px;
+    height: 300px;
+    //border: black solid 1px;
+}
+
+.web-project-img
 {
     width: 100%;
+    height: 100%;
+}
+
+
+// coding projects
+.coding-projects-container
+{
+    width: 92%;
     height: 500px;
     margin: auto;
     background-color: palegreen;
@@ -57,19 +135,6 @@
     height: 400px;
     background-color: lightcoral;
 }
-
-.web-project
-{
-    width: 400px;
-    height: 300px;
-}
-
-.web-project-img
-{
-    width: 100%;
-    height: 100%;
-}
-
 
 
 // contact section
@@ -163,12 +228,18 @@ textarea
 }
 
 
-
-.back-to-top
+.bottom-scroll-container
 {
+    //position: absolute;
+    //top: 0px;
+}
+
+.bottom-scroll
+{
+    width: 100%;
     height: 100px;
     margin-top: 150px;
     text-align: center;
     font-size: 20px;
-    //background-color: whitesmoke;
+    background-color: red;
 }
